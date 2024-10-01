@@ -21,6 +21,11 @@ for letter in range(1, nr_letters + 1):
     password += random_char
     print(password)
 
+for symbol in range(1, nr_symbols + 1):
+    random_symbol = random.choice(symbols)
+    password += random_symbol
+    print(password)
+
 
 #Hard Level - Order of characters randomised:
 #e.g. 4 letter, 2 symbol, 2 number = g^2jk8&P
